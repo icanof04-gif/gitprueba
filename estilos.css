@@ -39,3 +39,22 @@ a {
   border-radius: 10px;
   box-shadow: 5px 5px 5px var(--bs-teal);
 }
+
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  /* sin width para ajuste automático */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px 10px; /* un poco más de padding para legibilidad */
+  text-align: center;
+  white-space: nowrap; /* evita que el texto se parta en varias líneas */
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
